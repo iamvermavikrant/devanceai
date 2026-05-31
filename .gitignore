@@ -1,0 +1,20 @@
+# Environment & Secrets
+.env
+.env*
+venv/
+
+# Python Caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.htmlcov/
+
+# Local AI / IDE Agent Workspaces
+.mcp/
+*.log
+
+# Playwright Test Artifacts
+test-results/
+artifacts/
